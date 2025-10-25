@@ -7,12 +7,20 @@ void main() {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
+//добавить виджеты Container, networkimage, circleAvatar,
+//св-ва style у  Text, decoration у Container
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        body: Column(
+          children:[
+          Text('Hello World!'),
+          Text('Hello World!'),
+          Text('Hello World!'),
+          Text('Hello World!'),
+          Text('Hello World!'),
+          ]
         ),
       ),
     );

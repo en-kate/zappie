@@ -447,7 +447,7 @@ class _Calendar2025State extends State<Calendar2025> {
                           ),
                           boxShadow: isSelected 
                               ? [BoxShadow(
-                                  color: Colors.purple.withOpacity(0.3),
+                                  color: Colors.purple,
                                   blurRadius: 4,
                                   offset: Offset(2, 2),
                                 )]
